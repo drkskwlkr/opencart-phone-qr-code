@@ -19,7 +19,7 @@ The code should be compatible with all OC 2.x and 3.x branches; it was tested on
 ## Result
 If the mod is installed successfully, you will get a nice QR code within the `Customer Details` block of the Orders page (admin/index.php?route=sale/order/info)
 
-![You should get something like this:](https://i.imgur.com/VDiZ0y1.png)
+![You should get something like this:](https://i.imgur.com/gVB7zqx.png)
 
 ## Removal
 If not happy with this extension for whatever reason, just remove it from Extension Manager and refresh the mod cache (and the twig cache inside OC3.x).
