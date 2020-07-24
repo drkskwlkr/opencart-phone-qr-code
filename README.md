@@ -23,3 +23,7 @@ If the mod is installed successfully, you will get a nice QR code within the `Cu
 
 ## Removal
 If not happy with this extension for whatever reason, just remove it from Extension Manager and refresh the mod cache (and the twig cache inside OC3.x).
+
+
+## Caveats
+The Phone QR Code OCmod uses the [Google QR Code generation API](https://developers.google.com/chart/infographics/docs/qr_codes) which is flagged as 'deprecated' since God knows when. If it ever stops working, I will probably know immediately (because I use this OCmod in several webstores I operate), so I will fix it.
