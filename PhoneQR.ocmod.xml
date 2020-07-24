@@ -1,7 +1,7 @@
 <modification>
   <name><![CDATA[→ Add QR code to easily phone customer]]></name>
-  <version>1.0</version>
-  <link>https://www.webstage.dev</link>
+  <version>1.0/OC2</version>
+  <link>https://www.webstage.dev/support</link>
 	<author><![CDATA[<b><i class="fa fa-wrench"></i> Ivan Arnaudov • webstage.dev</b>]]></author>
   <code>webstage_admin_qrphonetext</code>
         	
