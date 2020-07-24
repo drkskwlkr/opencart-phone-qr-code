@@ -1,0 +1,15 @@
+<modification>
+  <name><![CDATA[→ Add QR code to easily phone customer]]></name>
+  <version>1.0/OC3</version>
+  <link>https://www.webstage.dev/support</link>
+	<author><![CDATA[<b><i class="fa fa-wrench"></i> Ivan Arnaudov • webstage.dev</b>]]></author>
+  <code>webstage_admin_qrphonetext_oc3</code>
+        	
+  <file path="admin/view/template/sale/order_info.twig">
+    <operation>
+      <search><![CDATA[<td style="width: 1%;"><button data-toggle="tooltip" title="{{ text_customer }}" class="btn btn-info btn-xs"><i class="fa fa-user fa-fw"></i></button></td>]]></search>
+      <add position="after" offset="3"><![CDATA[<td rowspan="4" style="vertical-align: middle; width: 1%;"><img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=tel%3A{{ telephone }}"></td>]]></add>
+	</operation>
+ </file>
+
+</modification>
