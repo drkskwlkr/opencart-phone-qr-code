@@ -11,7 +11,7 @@ The code should be compatible with all OC 2.x and 3.x branches; it was tested on
 
 ## Installation under OpenCart 3.x
 - Download https://github.com/drkskwlkr/opencart-phone-qr-code/blob/master/install.xml
-- ZIP it locally and name the archived file `phoneqr.ocmod.zip`
+- ZIP it locally and name the archived file `phoneqr.ocmod.zip` or give it another name if you like, but make sure it ends with `.ocmod.zip`
 - Upload said ZIP file via Extension Installer
 - Refresh the mod cache (Extensions &rarr; Modifications &rarr; Refresh)
 - Refresh the twig cache (Dashboard &rarr; Blue Cogwheel (Developer settings) &rarr; Refresh Theme)
