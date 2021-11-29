@@ -8,7 +8,7 @@
   <file path="admin/view/template/sale/order_info.tpl">
     <operation>
       <search><![CDATA[<a href="<?php echo $customer; ?>" target="_blank"><?php echo $firstname; ?> <?php echo $lastname; ?></a>]]></search>
-      <add position="after" offset="3"><![CDATA[<td rowspan="4" style="vertical-align: middle; width: 1%;"><img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=tel%3A<?php echo $telephone; ?>"></td>]]></add>
+      <add position="after" offset="3"><![CDATA[<td rowspan="4" style="vertical-align: middle; width: 1%;"><img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=tel%3A<?php echo urlencode($telephone); ?>"></td>]]></add>
     </operation>
  </file>
 
