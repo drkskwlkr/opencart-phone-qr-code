@@ -26,4 +26,7 @@ If not happy with this extension for whatever reason, just remove it from Extens
 
 
 ## Caveats
-The Phone QR Code OCmod uses the [Google QR Code generation API](https://developers.google.com/chart/infographics/docs/qr_codes) which is flagged as 'deprecated' since God knows when. If it ever stops working, I will probably know immediately (because I use this OCmod in several webstores I operate), so I will fix it.
+~~The Phone QR Code OCmod uses the [Google QR Code generation API](https://developers.google.com/chart/infographics/docs/qr_codes) which is flagged as 'deprecated' since God knows when. If it ever stops working, I will probably know immediately (because I use this OCmod in several webstores I operate), so I will fix it.~~
+
+## Caveat update
+The Google API was finally shut down some time earlier this year. I have replaced it with a free API service provided by goQR.me / Foundata GmbH (https://goqr.me/api/)
