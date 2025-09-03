@@ -8,8 +8,9 @@
   <file path="admin/view/template/sale/order_info.twig">
     <operation>
       <search><![CDATA[<td style="width: 1%;"><button data-toggle="tooltip" title="{{ text_customer }}" class="btn btn-info btn-xs"><i class="fa fa-user fa-fw"></i></button></td>]]></search>
-      <add position="after" offset="3"><![CDATA[<td rowspan="4" style="vertical-align: middle; width: 1%;"><img src="https://chart.googleapis.com/chart?chs=150x150&cht=qr&chl=tel%3A{{ telephone }}"></td>]]></add>
+      <add position="after" offset="3"><![CDATA[<td rowspan="4" style="vertical-align: middle; width: 1%;"><img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=tel%3A{{ telephone|url_encode }}"></td>]]></add>
 	</operation>
  </file>
+
 
 </modification>
